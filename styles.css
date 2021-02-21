@@ -1,25 +1,21 @@
 body {
-    background-color: aqua;
-    margin: 0;
-    padding: auto;
-    border-radius: 0%;
-    -webkit-border-radius: 0%;
-    -moz-border-radius: 0%;
-    -ms-border-radius: 0%;
-    -o-border-radius: 0%;
+    background-color: azure;
 
 }
 h1 {
-    color: crimson;
+    color: red;
+    font-size: 300%;
     align-content: center;
-    margin: 0;
-    padding: 0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-
+    font-style: italic;
+    box-shadow: slategray;
+    border-bottom-left-radius: 5vh;
 }
-form {
-    align-content: center;
-    color: darkgreen;
-    font-size: 0%;
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0rem;
+margin-top: 5vh;
+margin-bottom: 5vh;
+
+
 }
