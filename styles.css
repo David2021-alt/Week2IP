@@ -1,5 +1,11 @@
 body {
     background-color: azure;
+    background-image: url(Akan2.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    
 
 }
 h1 {
@@ -9,6 +15,7 @@ h1 {
     font-style: italic;
     box-shadow: slategray;
     border-bottom-left-radius: 5vh;
+
 }
 p {
     color: black;
@@ -16,6 +23,34 @@ p {
     border: 0rem;
 margin-top: 5vh;
 margin-bottom: 5vh;
+
+}
+container {
+    align-content: center;
+}
+
+form {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    font-size: 2vh;
+    font-family: sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    background-image: url(Akan2.jpg);
+    
+    
+
+}
+input {
+    border-color: blue;
+    box-sizing: border-box;
+    outline: 1;
+    padding-left: 15px;
+    margin: 0em;
+    align-content: space-between;
+    font-size: 14px;
+
 
 
 }
