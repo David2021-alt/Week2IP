@@ -36,21 +36,29 @@ form {
     font-size: 2vh;
     font-family: sans-serif;
     outline: 1;
-    background: #f2f2f2;
-    background-image: url(Akan2.jpg);
+    background: rgba(7, 189, 195, 0.8);
     
-    
-
 }
 input {
     border-color: blue;
-    box-sizing: border-box;
+    box-sizing: content-box;
     outline: 1;
     padding-left: 15px;
-    margin: 0em;
+    margin: 1em;
     align-content: space-between;
     font-size: 14px;
 
-
+}
+.form button:,.form button:active {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0em;
+    background: #4ca504;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    
+    
 
 }
+

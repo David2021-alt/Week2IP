@@ -1,7 +1,8 @@
+console.log("some string")
 function fn() {
     var d = new Date();
     var date = parseInt(document.getElementById("day").value);
-    var month = parseInt(document.getElementById("month").value) - 1;
+    var month = parseInt(document.getElementById("month").value)- 1;
     var year = parseInt(document.getElementById("year").value);
     if (day < 0 || day > 31) {
         document.getElementsByClassName("dayerror").innerHtml = "Enter valid date";
@@ -85,5 +86,4 @@ function fn() {
             }
         }
     }
-    getAkan();
-}
+    getAkan(".data(key);");
